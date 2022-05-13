@@ -1,0 +1,241 @@
+.lawFirm {
+    background-color: #1c243c;
+    color: white;
+    padding: 10% 5%;
+}
+
+.lawFirm h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.lawFirm h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.lawFirm h2 span {
+    color: #92bde7;
+}
+
+.lawFirm p {
+    font-size: 1.2rem;
+    padding-top: 10%;
+    line-height: 2.0;
+    text-align: center;
+}
+
+@media screen and (min-width:700px) {
+    .lawFirm {
+        padding: 5% 20%;
+    }
+    .lawFirm p {
+        padding-top: 10%;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        line-height: 1.4;
+    }
+}
+
+.midImage {
+    background: url(../img/headerImg.jpg) no-repeat center fixed;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+@media screen and (min-width:770px) {
+    .midImage {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+.vision {
+    background-color: #1c243c;
+    color: #ffffff;
+    padding: 10% 5%;
+    width: 95%;
+    position: relative;
+    left: 5%;
+    margin-top: -10%;
+}
+
+.vision span {
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #92bde7;
+}
+
+.vision h3 {
+    font-size: 2.0rem;
+}
+
+.vision p {
+    padding-top: 5%;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+}
+
+.vision a {
+    background-color: #92bde7;
+    padding: 3% 5%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.vision a:hover,
+.vision a:focus {
+    background-color: #485e74;
+    transition: all 2s ease-out;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+}
+
+@media screen and (min-width:700px) {
+    .vision {
+        width: 40%;
+        position: relative;
+        left: 15%;
+        margin-top: -25%;
+        padding: 5% 5%;
+    }
+    .vision h3 {
+        font-size: 2.5rem;
+    }
+    .vision p {
+        line-height: 1.5rem;
+    }
+}
+
+.associates {
+    width: 100%;
+}
+
+.assHead h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.swiper {
+    padding-bottom: 5%;
+}
+
+.swiperimg {
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+}
+
+.swiperimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide h3 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #92bde7;
+    padding-top: 5%;
+}
+
+.swiper-slide h4 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.swiper-slide p {
+    padding: 5%;
+    font-size: 1.2rem;
+}
+
+.swiper-slide a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.swiper-slide a:last-child {
+    padding-bottom: 10%;
+}
+
+@media screen and (min-width:700px) {
+    .associates {
+        width: 70%;
+        margin: auto;
+    }
+    .swiperimg {
+        margin-left: 10%;
+        display: inline-block;
+        width: 30%;
+    }
+    .swipertalk {
+        float: right;
+        width: 40%;
+        margin-right: 10%;
+    }
+    .swiper-slide p {
+        padding: 0%;
+    }
+}
+
+.valueBg {
+    background: url(../img/thestandingdesk-sGdVTZ0wt0s-unsplash.jpg) no-repeat center fixed;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    margin-top: 20%;
+}
+
+.values {
+    background-color: #1c243c;
+    color: #ffffff;
+    width: 95%;
+    position: relative;
+    left: 5%;
+    margin-top: -190%;
+    margin-bottom: 40%;
+}
+
+.values .swiper-slide h2 {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.values .swiper-slide h2 span {
+    text-decoration: underline;
+    font-style: italic;
+    color: #92bde7;
+}
+
+.values .swiper-slide h3 {
+    text-align: left;
+    padding-left: 5%;
+}
+
+@media screen and (min-width:600px) {
+    .values {
+        width: 40%;
+        position: relative;
+        left: 50%;
+        margin-top: -30%;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+    .valueBg {
+        margin-top: 5%;
+        height: 80vh;
+    }
+    .values .swiper-slide p {
+        padding-bottom: 5%;
+    }
+}
